@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="story_main.css">
+  <link rel="stylesheet" href="animate.css">
+  <link rel="stylesheet" href="fonts.css">
+  <title>Story Main </title>
+</head>
+
+<body>
+  <!-- Loading BBC fonts -->
+  <style type="text/css">
+    body {
+      font-family: 'BBC Reith Sans';
+    }
+  </style>
+
+  <!-- Navbar -->
+  <div class="wrapper">
+    <nav class="navbar navbar-expand-lg xdiv-navbar">
+      <a class="navbar-brand xdiv-navbar-brand" href="/">
+        <strong>CROSSING</strong> DIVIDES</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+      </div>
+    </nav>
+    <!-- End of navbar -->
+
+
+    <!-- Story main View component -->
+    <div class="container chat-list">
+      <ul class="list-unstyled">
+        <div class="row">
+          <div>
+            <li class="outer-intro media col-md-6">
+              <div class="intro-bubble media-body">
+                This is the intro. Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
+                odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
+                Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <li class="media col-md-6 bubble-left animated bounceInLeft">
+            <img class="align-self-end playerThumbnail rounded-circle" src="http://via.placeholder.com/350x350" alt="Generic placeholder image">
+            <div class="media-body chat-bubble bubble-left">
+              <!-- <h5 class="mt-0 mb-1">List-based media object</h5> -->
+              I've just arrived, and I have to say, seeing everyone carrying a gun is making me nervous!
+            </div>
+          </li>
+
+        </div>
+
+        <div class="row">
+          <li class="media my-4 col-md-6 offset-md-6 bubble-right animated bounceInRight">
+
+            <div class="media-body chat-bubble bubble-right">
+              <!--       <h5 class="mt-0 mb-1">List-based media object</h5> -->
+              I can see why you might think that, but it's all part of our freedom to bear arms and enshrined in the constitution. Don’t
+              worry - all of us gun-carriers are all law abiding citizens and know how to use a gun correctly.
+            </div>
+
+            <img class="align-self-end playerThumbnail rounded-circle" src="http://via.placeholder.com/350x350" alt="Generic placeholder image">
+          </li>
+
+        </div>
+
+        <div class="row">
+
+          <li class="media col-6 col-md-3 bubble-left typing-bubble animated bounceIn">
+            <img class="align-self-end playerThumbnail rounded-circle" src="http://via.placeholder.com/350x350" alt="Generic placeholder image">
+            <div class="media-body chat-bubble bubble-left">
+              <!-- <h5 class="mt-0 mb-1">List-based media object</h5> -->
+              <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+              </div>
+            </div>
+          </li>
+
+        </div>
+
+      </ul>
+    </div>
+
+    <div class="response-picker d-block d-md-none picker-head col-12 col-lg-5 offset-lg-6 picker-unselected">
+
+      <div class="card">
+        <div class="outer-header">
+          <div class="card-header">
+            <img class="align-self-end playerThumbnail rounded-circle" src="http://via.placeholder.com/350x350" alt="Generic placeholder image">
+            <i>
+              <b>
+                <a data-toggle="collapse" href="#collapseExample">Pick a response ...</a>
+              </b>
+            </i>
+            <span class="oi oi-chevron-bottom"></span>
+          </div>
+        </div>
+        <div class="collapse" id="collapseExample">
+          <ul class="list-group list-group-flush">
+
+            <li class="list-group-item ">
+              <div class="responseOption">I can see why you might think that, but it's all part of our freedom to bear arms and enshrined in the constitution.
+                Don’t worry - all of us gun-carriers are all law abiding citizens and know how to use a gun correctly.
+              </div>
+              <p class="text-right">
+                <small>Option 1</small>
+              </p>
+            </li>
+            <li class="list-group-item">
+              <div class="responseOption">
+                Yup, welcome to America - the Land of the Free! Us folks defend our rights and and the government should get on with protecting
+                society.
+              </div>
+              <p class="text-right">
+                <small>Option 1</small>
+              </p>
+            </li>
+            <li class="list-group-item">
+              <div class="responseOption">
+                How else are we going to defend ourselves - there's some crazy people out there. Any attack on my right to carry a gun is
+                exceedingly 'anti-American'.
+              </div>
+              <p class="text-right">
+                <small>Option 1</small>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container picker-container">
+      <div class="row">
+        <div class="response-picker d-none d-sm-block col-12 col-md-6 offset-md-6">
+
+          <div class="card">
+            <div class="outer-header">
+              <div class="card-header">
+                <img class="align-self-end playerThumbnail rounded-circle" src="http://via.placeholder.com/350x350" alt="Generic placeholder image">
+                <i>
+                  <b>Pick a response ...</b>
+                </i>
+                <span class="oi oi-chevron-bottom"></span>
+              </div>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item ">
+                <div class="responseOption">I can see why you might think that, but it's all part of our freedom to bear arms and enshrined in the constitution.
+                  Don’t worry - all of us gun-carriers are all law abiding citizens and know how to use a gun correctly.
+                </div>
+                <p class="text-right">
+                  <small>Option 1</small>
+                </p>
+              </li>
+              <li class="list-group-item">
+                <div class="responseOption">
+                  Yup, welcome to America - the Land of the Free! Us folks defend our rights and and the government should get on with protecting
+                  society.
+                </div>
+                <p class="text-right">
+                  <small>Option 1</small>
+                </p>
+              </li>
+              <li class="list-group-item">
+                <div class="responseOption">
+                  How else are we going to defend ourselves - there's some crazy people out there. Any attack on my right to carry a gun is
+                  exceedingly 'anti-American'.
+                </div>
+                <p class="text-right">
+                  <small>Option 1</small>
+                </p>
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- End story main view component -->
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+    var e = document.getElementById('test')
+    var observer = new MutationObserver(function (event) {
+      console.log(event)
+    })
+
+    observer.observe(e, {
+      attributes: true,
+      attributeFilter: ['class'],
+      childList: false,
+      characterData: false
+    })
+  </script>
+</body>
+
+</html>

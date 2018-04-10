@@ -1,0 +1,80 @@
+/* Color palette */
+
+:root {
+  --black: #000000;
+  --warm-grey: #979797;
+  --white-three: #ffffff;
+  --greyish: #a8a8a8;
+  --white: #f2f1f1;
+  --white-two: #f8f8f8;
+  --beige: #f8f7e8;
+  --black-two: #3b3b3b;
+}
+
+/* Sample text styles */
+
+header {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+nav.xdiv-navbar {
+  /*width: 1280px;*/
+  /*height: 52px;*/
+  /*background-color: #ffffff!important;*/
+  background-color: var(--white-three);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid black;
+}
+
+
+a.xdiv-navbar-brand {
+	text-decoration: none; 
+	color: var(--black);
+}
+
+a.nav-link{
+	text-decoration: none; 
+	color: var(--black);
+}
+
+nav {
+    margin-bottom: 40px;
+}
+
+/*To space cards intro panel when in mobile view*/
+.card {
+    margin-bottom: 40px;
+}
+
+
+body{
+	background-color: var(--white)
+}
+
+
+.promoSliceTitle{
+
+}
+
+html {
+  height: 100%;
+}
+
+
+@media (min-width: 600px) {
+
+	body {
+	   /*background-color: #000;*/
+	   min-height: 100%;
+	   background-image: url("splat-1.svg");
+	   background-position: right bottom; /*Positioning*/
+	   background-repeat: no-repeat; /*Prevent showing multiple background images*/
+	}
+
+}
