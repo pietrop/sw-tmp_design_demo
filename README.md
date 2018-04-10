@@ -10,6 +10,8 @@ See [confluence project page for more details](https://confluence.dev.bbc.co.uk/
 
 _stack - optional_
 
+HTML, Bootstrap (from CDN).
+
 _How to build and run the code/app_
 
 git clone, cd into repo
